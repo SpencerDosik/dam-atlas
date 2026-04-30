@@ -5,7 +5,7 @@ import { useFilterStore } from "@/store/useFilterStore";
 import { countActiveFilters } from "@/lib/filterDams";
 
 export function useKeyboardShortcuts(
-  searchRef: React.RefObject<HTMLInputElement | null>,
+  searchRef: React.RefObject<HTMLInputElement>,
   onResetView?: () => void
 ): void {
   const ui = useUiStore();

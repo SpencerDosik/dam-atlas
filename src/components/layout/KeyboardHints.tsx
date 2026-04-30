@@ -2,7 +2,7 @@ import { useUiStore } from "@/store/useUiStore";
 import { useKeyboardShortcuts } from "@/hooks/useKeyboardShortcuts";
 
 interface KeyboardHintsProps {
-  searchRef: React.RefObject<HTMLInputElement | null>;
+  searchRef: React.RefObject<HTMLInputElement>;
   onResetView?: () => void;
 }
 

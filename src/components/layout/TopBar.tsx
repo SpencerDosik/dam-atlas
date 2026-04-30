@@ -8,7 +8,7 @@ interface TopBarProps {
   features: DamFeature[];
   filteredFeatures: DamFeature[];
   summary: Summary;
-  searchRef: React.RefObject<HTMLInputElement | null>;
+  searchRef: React.RefObject<HTMLInputElement>;
 }
 
 const VIEWS: { id: AppView; label: string }[] = [

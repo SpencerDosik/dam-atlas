@@ -19,7 +19,7 @@ const STADIA_STYLE_URL = import.meta.env.VITE_STADIA_API_KEY
 interface DamMapProps {
   features: DamFeature[];
   filteredFeatures: DamFeature[];
-  searchRef: React.RefObject<HTMLInputElement | null>;
+  searchRef: React.RefObject<HTMLInputElement>;
 }
 
 export function DamMap({ features, filteredFeatures, searchRef }: DamMapProps) {
