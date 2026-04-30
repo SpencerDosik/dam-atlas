@@ -22,13 +22,6 @@ function getDamElevation(heightFt: number | null): number {
   return Math.round(raw / 5) * 5;
 }
 
-function getDamRadius(storageFt: number | null): number {
-  if (storageFt === null) return 800;
-  if (storageFt <= 1000) return 600;
-  if (storageFt >= 1e7) return 2400;
-  const t = Math.log10(storageFt / 1000) / Math.log10(1e7 / 1000);
-  return Math.round(600 + t * (2400 - 600));
-}
 
 const lightingEffect = new LightingEffect({
   ambient: new AmbientLight({ color: [255, 255, 255], intensity: 0.6 }),
@@ -141,7 +134,7 @@ export function DeckOverlay({ map, features, filteredFeatures }: DeckOverlayProp
           },
           getLineColor: [0, 0, 0, 0],
           diskResolution: 12,
-          radius: (f: DamFeature) => getDamRadius(f.properties.maxStorage),
+          radius: 1200,
           radiusUnits: "meters",
           extruded: true,
           material: { ambient: 0.5, diffuse: 0.6, shininess: 30, specularColor: [60, 64, 70] },
@@ -168,7 +161,7 @@ export function DeckOverlay({ map, features, filteredFeatures }: DeckOverlayProp
               getFillColor: [255, 255, 255, 220],
               getLineColor: [255, 255, 255, 255],
               diskResolution: 16,
-              radius: (f: DamFeature) => getDamRadius(f.properties.maxStorage) + 200,
+              radius: 1400,
               radiusUnits: "meters",
               extruded: true,
               material: { ambient: 0.8, diffuse: 0.8, shininess: 60, specularColor: [255, 255, 255] },

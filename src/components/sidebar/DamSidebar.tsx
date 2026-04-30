@@ -140,7 +140,7 @@ export function DamSidebar() {
               <DetailField label="Owner Type" value={detail.ownerType} />
               <DetailField label="Regulatory Agency" value={detail.regulatoryAgency} />
               <DetailField label="Federal Agency" value={detail.federalAgency} />
-              <DetailField label="State Regulated" value={detail.stateRegulatedDam ?? null} />
+
             </div>
           </section>
 
