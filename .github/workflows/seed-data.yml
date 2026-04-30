@@ -1,0 +1,42 @@
+name: Seed NID Data
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - claude/dam-hazard-atlas-8SeNm
+    paths:
+      - .github/workflows/seed-data.yml
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/dam-hazard-atlas-8SeNm
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Download and preprocess NID data
+        run: python scripts/build_geojson.py --output-dir public/data
+
+      - name: Commit data files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/dams.geojson public/data/dams.details.json \
+                  public/data/summary.json public/data/riskScore.fixtures.json
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "data: seed NID dam data from USACE"
+            git push origin claude/dam-hazard-atlas-8SeNm
+          )
