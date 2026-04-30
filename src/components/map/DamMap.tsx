@@ -12,9 +12,9 @@ import { FilteredCountBadge } from "./FilteredCountBadge";
 import { useKeyboardShortcuts } from "@/hooks/useKeyboardShortcuts";
 import type { DamFeature } from "@/types/dam";
 
-const STADIA_STYLE_URL = import.meta.env.VITE_STADIA_API_KEY
-  ? `https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json?api_key=${import.meta.env.VITE_STADIA_API_KEY}`
-  : "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json";
+const STADIA_API_KEY =
+  import.meta.env.VITE_STADIA_API_KEY ?? "4efa76f1-ed95-4c9e-a87b-2ad42bd89ef1";
+const STADIA_STYLE_URL = `https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json?api_key=${STADIA_API_KEY}`;
 
 interface DamMapProps {
   features: DamFeature[];
