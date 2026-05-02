@@ -1,0 +1,402 @@
+{
+  "totalDams": 25052,
+  "byHazard": {
+    "High": 4012,
+    "Significant": 3008,
+    "Low": 14242,
+    "Undetermined": 3790
+  },
+  "byCondition": {
+    "Satisfactory": 9597,
+    "Fair": 6965,
+    "Poor": 1976,
+    "Unsatisfactory": 1047,
+    "Not Rated": 5467
+  },
+  "byOwnerType": {
+    "Federal": 1262,
+    "State": 2243,
+    "Local Government": 6720,
+    "Public Utility": 1048,
+    "Private": 13016,
+    "Other": 763
+  },
+  "byState": [
+    {
+      "state": "TX",
+      "name": "Texas",
+      "count": 1550,
+      "highHazard": 201,
+      "averageHeight": 31.0
+    },
+    {
+      "state": "KS",
+      "name": "Kansas",
+      "count": 1300,
+      "highHazard": 216,
+      "averageHeight": 31.2
+    },
+    {
+      "state": "GA",
+      "name": "Georgia",
+      "count": 1200,
+      "highHazard": 178,
+      "averageHeight": 31.5
+    },
+    {
+      "state": "MO",
+      "name": "Missouri",
+      "count": 1200,
+      "highHazard": 203,
+      "averageHeight": 33.4
+    },
+    {
+      "state": "IA",
+      "name": "Iowa",
+      "count": 980,
+      "highHazard": 163,
+      "averageHeight": 31.3
+    },
+    {
+      "state": "OK",
+      "name": "Oklahoma",
+      "count": 920,
+      "highHazard": 141,
+      "averageHeight": 32.0
+    },
+    {
+      "state": "IL",
+      "name": "Illinois",
+      "count": 900,
+      "highHazard": 145,
+      "averageHeight": 30.0
+    },
+    {
+      "state": "PA",
+      "name": "Pennsylvania",
+      "count": 850,
+      "highHazard": 147,
+      "averageHeight": 30.8
+    },
+    {
+      "state": "NC",
+      "name": "North Carolina",
+      "count": 810,
+      "highHazard": 129,
+      "averageHeight": 29.7
+    },
+    {
+      "state": "AR",
+      "name": "Arkansas",
+      "count": 790,
+      "highHazard": 147,
+      "averageHeight": 31.6
+    },
+    {
+      "state": "VA",
+      "name": "Virginia",
+      "count": 740,
+      "highHazard": 112,
+      "averageHeight": 29.9
+    },
+    {
+      "state": "AL",
+      "name": "Alabama",
+      "count": 720,
+      "highHazard": 125,
+      "averageHeight": 31.4
+    },
+    {
+      "state": "OH",
+      "name": "Ohio",
+      "count": 700,
+      "highHazard": 118,
+      "averageHeight": 30.8
+    },
+    {
+      "state": "TN",
+      "name": "Tennessee",
+      "count": 700,
+      "highHazard": 115,
+      "averageHeight": 31.6
+    },
+    {
+      "state": "MS",
+      "name": "Mississippi",
+      "count": 680,
+      "highHazard": 109,
+      "averageHeight": 32.5
+    },
+    {
+      "state": "KY",
+      "name": "Kentucky",
+      "count": 630,
+      "highHazard": 105,
+      "averageHeight": 32.2
+    },
+    {
+      "state": "MN",
+      "name": "Minnesota",
+      "count": 610,
+      "highHazard": 87,
+      "averageHeight": 30.6
+    },
+    {
+      "state": "NE",
+      "name": "Nebraska",
+      "count": 590,
+      "highHazard": 92,
+      "averageHeight": 32.3
+    },
+    {
+      "state": "NY",
+      "name": "New York",
+      "count": 570,
+      "highHazard": 85,
+      "averageHeight": 30.4
+    },
+    {
+      "state": "WI",
+      "name": "Wisconsin",
+      "count": 570,
+      "highHazard": 87,
+      "averageHeight": 31.2
+    },
+    {
+      "state": "IN",
+      "name": "Indiana",
+      "count": 550,
+      "highHazard": 100,
+      "averageHeight": 30.0
+    },
+    {
+      "state": "MI",
+      "name": "Michigan",
+      "count": 520,
+      "highHazard": 97,
+      "averageHeight": 31.0
+    },
+    {
+      "state": "SC",
+      "name": "South Carolina",
+      "count": 520,
+      "highHazard": 73,
+      "averageHeight": 30.9
+    },
+    {
+      "state": "CA",
+      "name": "California",
+      "count": 500,
+      "highHazard": 73,
+      "averageHeight": 29.7
+    },
+    {
+      "state": "CO",
+      "name": "Colorado",
+      "count": 480,
+      "highHazard": 86,
+      "averageHeight": 31.9
+    },
+    {
+      "state": "WV",
+      "name": "West Virginia",
+      "count": 460,
+      "highHazard": 68,
+      "averageHeight": 31.1
+    },
+    {
+      "state": "WA",
+      "name": "Washington",
+      "count": 415,
+      "highHazard": 74,
+      "averageHeight": 30.4
+    },
+    {
+      "state": "OR",
+      "name": "Oregon",
+      "count": 395,
+      "highHazard": 69,
+      "averageHeight": 32.3
+    },
+    {
+      "state": "LA",
+      "name": "Louisiana",
+      "count": 370,
+      "highHazard": 70,
+      "averageHeight": 30.9
+    },
+    {
+      "state": "FL",
+      "name": "Florida",
+      "count": 350,
+      "highHazard": 54,
+      "averageHeight": 29.9
+    },
+    {
+      "state": "MD",
+      "name": "Maryland",
+      "count": 350,
+      "highHazard": 54,
+      "averageHeight": 29.7
+    },
+    {
+      "state": "NJ",
+      "name": "New Jersey",
+      "count": 330,
+      "highHazard": 52,
+      "averageHeight": 31.0
+    },
+    {
+      "state": "MA",
+      "name": "Massachusetts",
+      "count": 310,
+      "highHazard": 39,
+      "averageHeight": 29.4
+    },
+    {
+      "state": "CT",
+      "name": "Connecticut",
+      "count": 265,
+      "highHazard": 36,
+      "averageHeight": 32.1
+    },
+    {
+      "state": "MT",
+      "name": "Montana",
+      "count": 240,
+      "highHazard": 41,
+      "averageHeight": 32.5
+    },
+    {
+      "state": "SD",
+      "name": "South Dakota",
+      "count": 220,
+      "highHazard": 29,
+      "averageHeight": 31.6
+    },
+    {
+      "state": "ND",
+      "name": "North Dakota",
+      "count": 210,
+      "highHazard": 43,
+      "averageHeight": 29.3
+    },
+    {
+      "state": "ID",
+      "name": "Idaho",
+      "count": 197,
+      "highHazard": 22,
+      "averageHeight": 33.2
+    },
+    {
+      "state": "WY",
+      "name": "Wyoming",
+      "count": 186,
+      "highHazard": 29,
+      "averageHeight": 30.6
+    },
+    {
+      "state": "AZ",
+      "name": "Arizona",
+      "count": 175,
+      "highHazard": 31,
+      "averageHeight": 31.4
+    },
+    {
+      "state": "NM",
+      "name": "New Mexico",
+      "count": 153,
+      "highHazard": 20,
+      "averageHeight": 29.9
+    },
+    {
+      "state": "ME",
+      "name": "Maine",
+      "count": 142,
+      "highHazard": 21,
+      "averageHeight": 31.0
+    },
+    {
+      "state": "NH",
+      "name": "New Hampshire",
+      "count": 131,
+      "highHazard": 31,
+      "averageHeight": 30.3
+    },
+    {
+      "state": "VT",
+      "name": "Vermont",
+      "count": 120,
+      "highHazard": 20,
+      "averageHeight": 30.2
+    },
+    {
+      "state": "UT",
+      "name": "Utah",
+      "count": 109,
+      "highHazard": 11,
+      "averageHeight": 38.5
+    },
+    {
+      "state": "NV",
+      "name": "Nevada",
+      "count": 98,
+      "highHazard": 9,
+      "averageHeight": 28.4
+    },
+    {
+      "state": "DE",
+      "name": "Delaware",
+      "count": 77,
+      "highHazard": 17,
+      "averageHeight": 34.3
+    },
+    {
+      "state": "RI",
+      "name": "Rhode Island",
+      "count": 61,
+      "highHazard": 12,
+      "averageHeight": 27.4
+    },
+    {
+      "state": "HI",
+      "name": "Hawaii",
+      "count": 44,
+      "highHazard": 12,
+      "averageHeight": 31.2
+    },
+    {
+      "state": "AK",
+      "name": "Alaska",
+      "count": 39,
+      "highHazard": 12,
+      "averageHeight": 32.3
+    },
+    {
+      "state": "PR",
+      "name": "Puerto Rico",
+      "count": 20,
+      "highHazard": 2,
+      "averageHeight": 31.2
+    },
+    {
+      "state": "DC",
+      "name": "District of Columbia",
+      "count": 5,
+      "highHazard": 0,
+      "averageHeight": 24.1
+    }
+  ],
+  "byPurpose": {
+    "Recreation": 7116,
+    "Flood Control": 5452,
+    "Irrigation": 4067,
+    "Water Supply": 3501,
+    "Fish and Wildlife Pond": 2156,
+    "Other": 1199,
+    "Hydroelectric": 1048,
+    "Navigation": 513
+  },
+  "generatedAt": "2026-05-02T02:13:14.078843+00:00",
+  "sourceUrl": "https://nid.sec.usace.army.mil/"
+}

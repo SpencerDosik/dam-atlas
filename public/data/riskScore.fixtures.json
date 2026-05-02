@@ -1,0 +1,122 @@
+[
+  {
+    "hazard": "High",
+    "condition": "Satisfactory",
+    "expectedScore": 68,
+    "expectedTier": "Elevated"
+  },
+  {
+    "hazard": "High",
+    "condition": "Fair",
+    "expectedScore": 84,
+    "expectedTier": "Critical"
+  },
+  {
+    "hazard": "High",
+    "condition": "Poor",
+    "expectedScore": 100,
+    "expectedTier": "Critical"
+  },
+  {
+    "hazard": "High",
+    "condition": "Unsatisfactory",
+    "expectedScore": 100,
+    "expectedTier": "Critical"
+  },
+  {
+    "hazard": "High",
+    "condition": "Not Rated",
+    "expectedScore": 76,
+    "expectedTier": "Elevated"
+  },
+  {
+    "hazard": "Significant",
+    "condition": "Satisfactory",
+    "expectedScore": 44,
+    "expectedTier": "Moderate"
+  },
+  {
+    "hazard": "Significant",
+    "condition": "Fair",
+    "expectedScore": 60,
+    "expectedTier": "Elevated"
+  },
+  {
+    "hazard": "Significant",
+    "condition": "Poor",
+    "expectedScore": 76,
+    "expectedTier": "Elevated"
+  },
+  {
+    "hazard": "Significant",
+    "condition": "Unsatisfactory",
+    "expectedScore": 76,
+    "expectedTier": "Elevated"
+  },
+  {
+    "hazard": "Significant",
+    "condition": "Not Rated",
+    "expectedScore": 52,
+    "expectedTier": "Moderate"
+  },
+  {
+    "hazard": "Low",
+    "condition": "Satisfactory",
+    "expectedScore": 20,
+    "expectedTier": "Low"
+  },
+  {
+    "hazard": "Low",
+    "condition": "Fair",
+    "expectedScore": 36,
+    "expectedTier": "Low"
+  },
+  {
+    "hazard": "Low",
+    "condition": "Poor",
+    "expectedScore": 52,
+    "expectedTier": "Moderate"
+  },
+  {
+    "hazard": "Low",
+    "condition": "Unsatisfactory",
+    "expectedScore": 52,
+    "expectedTier": "Moderate"
+  },
+  {
+    "hazard": "Low",
+    "condition": "Not Rated",
+    "expectedScore": 28,
+    "expectedTier": "Low"
+  },
+  {
+    "hazard": "Undetermined",
+    "condition": "Satisfactory",
+    "expectedScore": 8,
+    "expectedTier": "Minimal"
+  },
+  {
+    "hazard": "Undetermined",
+    "condition": "Fair",
+    "expectedScore": 24,
+    "expectedTier": "Low"
+  },
+  {
+    "hazard": "Undetermined",
+    "condition": "Poor",
+    "expectedScore": 40,
+    "expectedTier": "Moderate"
+  },
+  {
+    "hazard": "Undetermined",
+    "condition": "Unsatisfactory",
+    "expectedScore": 40,
+    "expectedTier": "Moderate"
+  },
+  {
+    "hazard": "Undetermined",
+    "condition": "Not Rated",
+    "expectedScore": 16,
+    "expectedTier": "Minimal"
+  }
+]

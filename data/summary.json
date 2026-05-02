@@ -1,0 +1,10 @@
+{
+  "totalDams": 0,
+  "byHazard": { "High": 0, "Significant": 0, "Low": 0, "Undetermined": 0 },
+  "byCondition": { "Satisfactory": 0, "Fair": 0, "Poor": 0, "Unsatisfactory": 0, "Not Rated": 0 },
+  "byOwnerType": { "Federal": 0, "State": 0, "Local Government": 0, "Public Utility": 0, "Private": 0, "Other": 0 },
+  "byState": [],
+  "byPurpose": {},
+  "generatedAt": "2026-04-30T00:00:00Z",
+  "sourceUrl": "https://nid.sec.usace.army.mil/"
+}
